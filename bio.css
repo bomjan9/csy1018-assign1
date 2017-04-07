@@ -1,0 +1,161 @@
+body{
+background-color:silver;
+}
+#header{
+  height:150px;
+	background-image:url(images/headerbg.jpg);
+  text-align: center;
+}
+#header img{
+	border-radius:90px;
+	padding:20px;
+	height:90px;
+	display:flex;
+	flex-direction:row;
+}
+#nav{
+  background-color: black;
+	height: 50px;
+	text-align: center;
+}
+#nav ul {
+   text-align: center;
+    overflow: hidden;
+    background-color: #333;
+}
+#nav li {
+   display: inline;
+   padding: 50px;
+   line-height: 50px;
+}
+#nav li a {
+    color: white;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color:grey;
+}
+footer{
+}
+.footer1{
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: row;
+	background-color: skyblue;
+	height: 80%;
+	padding: 10px;
+}
+.footer11{
+	font-size: 16px;
+	margin-left: 2%;
+}
+.footer12{
+   margin-left:500px;
+   }
+	.footer12 img{
+		height:60px;
+	}
+.cvpart{
+	background-color:rgb(18, 18, 32);
+	margin-top	:10px;
+	border-radius:8px;
+	box-shadow: 0px 2px 5px black;
+	color:silver;
+}
+.cvpart p{
+	padding:10px;
+	font-size:18px;
+}
+.cvhead{
+	background-color:silver;
+	height:30px;
+	margin-bottom:-20px;
+	width:20%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.head{
+	padding:0;
+	margin-top:0;
+	padding-left:5px;
+	color:#000019;
+}
+	.soc{
+		border-radius:100px;
+		height:100px;
+		width:60px;
+	}
+	.cap{
+		margin-left:10%;
+	}
+	.logocontainer{
+
+	width:11%;
+	border-radius:100%;
+
+}
+	.logoname{
+		margin-top:-1%;
+			color:white;
+	}
+	@media (max-width:700px) {
+		#nav{
+			display: flex;
+			flex-direction: column;
+			height: auto;
+
+		}
+  #nav li {
+		display: flex;
+		flex-direction: column;
+		height: 10%;
+		padding: 0px;
+		line-height: 0px;
+	}
+	#nav ul{
+		height: auto
+	}
+footer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.footer12{
+	margin-left: 0;
+}
+.footer1{
+	display: flex;
+	flex-direction: column;
+}
+	}
+	@media (max-width:700px) {
+		#nav{
+			display: flex;
+			flex-direction: column;
+			height: auto;
+
+		}
+	#nav li {
+		display: flex;
+		flex-direction: column;
+		height: 10%;
+		padding: 0px;
+		line-height: 0px;
+	}
+	#nav ul{
+		height: auto
+	}
+footer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.footer12{
+	margin-left: 0;
+}
+.footer1{
+	display: flex;
+	flex-direction: column;
+}
+	}

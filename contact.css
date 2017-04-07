@@ -1,0 +1,173 @@
+body{
+background-color:silver;
+}
+#header{
+height:150px;
+	background-image:url(images/headerbg.jpg);
+  text-align: center;
+}
+#header img{
+	border-radius:90px;
+	padding:20px;
+	height:90px;
+	display:flex;
+	flex-direction:row;
+}
+#nav{
+  background-color: black;
+	height: 50px;
+	text-align: center;
+}
+#nav ul {
+   text-align: center;
+    overflow: hidden;
+    background-color: #333;
+}
+#nav li {
+   display: inline;
+   padding: 50px;
+   line-height: 50px;
+}
+#nav li a {
+    color: white;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color:grey;
+}
+body {
+
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background:#d8dbe0;
+}
+.container {
+	max-width:400px;
+	width:100%;
+	margin: 0 50px;
+  padding-left: 400px;
+}
+#contact {
+	border-radius: 15px;
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+#contact h3 {
+	color: #034c2e;
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+}
+fieldset {
+	border: medium none ;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+#contact input  {
+	width:90%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+#contact textarea{
+	width:90%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+#contact button {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+footer{
+}
+.footer1{
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	flex-direction: row;
+	background-color: skyblue;
+	height: 80%;
+	padding: 10px;
+}
+.footer11{
+	font-size: 16px;
+	margin-left: 2%;
+}
+.footer12{
+   margin-left:500px;
+   }
+	.footer12 img{
+		height:60px;
+	}
+   .soc{
+		border-radius:100px;
+		height:100px;
+		width:60px;
+	}
+	.logocontainer{
+
+	width:11%;
+	border-radius:100%;
+
+}
+	.logoname{
+		margin-top:-1%;
+			color:white;
+	}
+	@media (max-width:700px) {
+		#nav{
+			display: flex;
+			flex-direction: column;
+			height: auto;
+
+		}
+  #nav li {
+		display: flex;
+		flex-direction: column;
+		height: 10%;
+		padding: 0px;
+		line-height: 0px;
+	}
+	#nav ul{
+		height: auto
+	}
+footer{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.footer12{
+	margin-left: 0;
+}
+.footer1{
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	padding:3%;
+}
+.logocontainer{
+	height: auto;
+	width: 21%;
+	margin: 2% 0;
+
+}
+header{
+	height: auto;
+}
+	}
